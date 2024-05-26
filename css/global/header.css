@@ -8,16 +8,18 @@
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*box-sizing: border-box;
     padding: 20px;
     max-width: 1200px;
-    /*
+    
         ↑ O 'box-sizing: border-box;' faz com que o valor de 'padding' já sejá incluído no 'max-width'. Quando chegar a 1200px o centeiner para de crescer
-    */
+    
 
     margin-left: auto;
     margin-right: auto;
-    /*
+    
         ↑ Quando o conteiner chegar a 1200px sur conteúdo será alinhando ao centro.
     */
 }
